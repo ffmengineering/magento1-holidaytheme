@@ -2,6 +2,15 @@
 /**
  * Ffm_Holidaythemes extension.
  *
+ *              *
+ *             /.\
+ *            /..'\
+ *           /'.'.'\
+ *          /.''.''.\
+ *         /.'.'.'.'.\
+ *  "'""""/'.''.'.''.'\""'"'"
+ *        ^^^^[_]^^^^^^
+ *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the OSL 3.0 License
@@ -9,8 +18,7 @@
  * It is also available through the world-wide-web at this URL:
  * http://opensource.org/licenses/OSL-3.0
  *
- * @category       Ffm_Holidaythemes
- *
+ * @package       Ffm_Holidaythemes
  * @copyright      Copyright (c) 2016
  * @license        OSL 3.0 http://opensource.org/licenses/OSL-3.0
  */
