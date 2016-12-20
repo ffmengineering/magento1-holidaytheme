@@ -1,0 +1,5 @@
+src/app/code/local/Ffm/Holidaythemes            app/code/local/Ffm/Holidaythemes
+src/app/etc/modules/Ffm_Holidaythemes.xml           app/etc/modules/Ffm_Holidaythemes.xml
+src/app/design/adminhtml/default/default/layout/ffm_holidaythemes.xml           app/design/adminhtml/default/default/layout/ffm_holidaythemes.xml
+src/app/design/adminhtml/default/default/template/ffm_holidaythemes         app/design/adminhtml/default/default/template/ffm_holidaythemes
+src/skin/adminhtml/default/default/ffm_holidaythemes            skin/adminhtml/default/default/ffm_holidaythemes

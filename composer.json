@@ -1,0 +1,15 @@
+{
+    "name": "Ffm/Holidaytheme",
+    "license": "OSL-3.0",
+    "type": "magento",
+    "description": "Add sme snow and a message to the Magento 1 admin",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Sander Mangel",
+            "email":"s.mangel@fitforme.nl"
+        }
+    ]
+}

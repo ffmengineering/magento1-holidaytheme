@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>ffm_holidaythemes/xmas.css</name><params/></action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="ffm_holidaythemes/adminhtml_overlay" name="ffm_holidaythemes_overlay" template="ffm_holidaythemes/overlay.phtml"/>
+        </reference>
+    </default>
+</layout>
