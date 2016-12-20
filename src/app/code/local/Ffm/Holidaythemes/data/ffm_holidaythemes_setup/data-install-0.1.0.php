@@ -35,6 +35,6 @@ Mage::getModel('adminnotification/inbox')->parse([
         'date_added'    => gmdate('Y-m-d H:i:s', time()),
         'title'         => 'Happy holidays from the FitForMe team!',
         'description'   => 'The whole FitForMe team wishes you a merry X-mas and a wonderful 2017',
-        'url'           => ''
+        'url'           => 'https://www.fitforme.com/about-us/working-for-fitforme/'
     ]
 ]);
