@@ -38,8 +38,9 @@ class Ffm_Holidaythemes_Block_Adminhtml_Overlay extends Mage_Adminhtml_Block_Abs
     public function showTheme($key)
     {
         $session = $this->getSession();
+        $flag = $this->getFlag($key, $session);
 
-        return ($session->getData("holidaytheme_once_{$key}") == 1) ? true : false;
+        return ($flag == 1) ? true : false;
     }
 
     /**
@@ -58,5 +59,22 @@ class Ffm_Holidaythemes_Block_Adminhtml_Overlay extends Mage_Adminhtml_Block_Abs
     protected function getSession()
     {
         return Mage::getSingleton('admin/session');
+    }
+
+    /**
+     * @param $key
+     * @param $session
+     * @return int
+     */
+    protected function getFlag($key, $session)
+    {
+        $flag = $session->getData("holidaytheme_once_{$key}");
+
+        if ($flag === null) {
+            $session->setData("holidaytheme_once_{$key}", 1);
+            $flag = 1;
+        }
+
+        return $flag;
     }
 }
