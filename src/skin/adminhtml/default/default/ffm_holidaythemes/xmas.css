@@ -73,7 +73,7 @@
     position: relative;
 }
 
-#holidaythemes-overlay.snow i:after, i:before {
+#holidaythemes-overlay.snow i:after, #holidaythemes-overlay.snow i:before {
     height: 100%;
     width: 100%;
     content: ".";
