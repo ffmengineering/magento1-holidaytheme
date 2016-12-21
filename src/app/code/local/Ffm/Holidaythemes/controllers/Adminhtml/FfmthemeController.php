@@ -63,7 +63,6 @@ class Ffm_Holidaythemes_Adminhtml_FfmthemeController extends Mage_Adminhtml_Cont
      */
     protected function _isAllowed()
     {
-        return true;
-        //return Mage::getSingleton('admin/session')->isAllowed('cms/ffm_locations/location');
+        return Mage::getSingleton('admin/session')->isAllowed('system/myaccount');
     }
 }
