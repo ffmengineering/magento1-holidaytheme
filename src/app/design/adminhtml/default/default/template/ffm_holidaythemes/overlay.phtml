@@ -31,8 +31,9 @@
 
 /** @var Ffm_Holidaythemes_Block_Adminhtml_Overlay $this */
 ?>
+<?php if ($this->showTheme('snow2016')):?>
 <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet"/>
-<div id="holidaythemes-overlay" class="snow" <?php if ($this->showTheme('snow2016')):?>style="display:block;"<?php endif;?> onclick="//this.remove();">
+<div id="holidaythemes-overlay" class="snow" style="display:block;">
     <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
     <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
     <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -43,3 +44,5 @@
         <a href="<?php echo $this->getToggleUrl('snow2016');?>">turn off</a>
     </div>
 </div>
+<?php endif;?>
+
